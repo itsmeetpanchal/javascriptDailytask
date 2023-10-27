@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+     
+    <script>
+
+        // condition check using ternary
+
+        a = 1;
+        b = 2;
+        c = 3;
+        d = 4;
+
+
+        var max = (a > b) ? (a > c ? (a > d) ? a : d : (c > d) ? c : d) : (b > c) ? (b > d) ? b : d : (c > d) ? c : d;
+
+        document.write(max)
+
+        // condition check using ternary in logical end operator
+        var e = 10;
+        var f = 15;
+        var j = 20;
+        var k = 5;
+
+        var max = (e > f && e > j && e > k) ? e :
+                  (f > e && f > j && f > k) ? f :
+                  (j > e && j > f && j > k) ? j : k;
+
+        document.write("max" + max)
+
+    </script>
+
+</body>
+
+</html>
