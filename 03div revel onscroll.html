@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scroll Reveal Divs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .box {
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .hidden {
+            opacity: 0;
+            transform: translateY(200px);
+            transition: all 2s ease;
+        }
+
+        .test {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Odit quia optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis
+            consequuntur alias commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum recusandae vero
+            perferendis inventore itaque facere? Earum ex dolorum reiciendis accusamus ut error, porro nobis at optio
+            sunt culpa. Architecto?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, vero fugit rerum
+            sunt similique magnam quisquam iure debitis necessitatibus architecto quasi eius laboriosam voluptas
+            doloremque veritatis. Ratione nihil adipisci iste.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Odit quia optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur
+            alias commodi quo aperiam veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Odit quia optio eaque dolor voluptates corporis obcaecati laudantium error doloribus!
+            Facilis consequuntur alias commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eos pariatur fuga quasi
+            beatae, culpa laborum velit inventore magni impedit fugit doloribus sapiente maiores debitis vel deserunt
+            accusamus nisi obcaecati.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque
+            dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo
+            aperiam veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            quia optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magni est dolorem cum
+            nisi exercitationem nihil suscipit non explicabo? Eligendi voluptatem eius iste, quis consequatur assumenda
+            ullam nobis ea officia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta unde nisi modi magni
+            debitis tenetur, commodi voluptatem eaque dolorem officiis sapiente vero consequuntur quidem, accusamus sunt
+            dolores totam, quas voluptates?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio
+            eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo
+            aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat molestias impedit,
+            aliquid soluta molestiae? Eos vero magni quis possimus nisi nesciunt accusamus maiores sint commodi numquam.
+            Excepturi, ipsum alias!Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+        <div class="box hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et libero iusto at quibusdam
+            hic fugiat iste laborum dignissimos, itaque, fuga necessitatibus consequatur nemo odit ex iure cumque facere
+            nihil nesciunt?Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia optio eaque dolor
+            voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias commodi quo aperiam
+            veniam fugiat unde labore repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia
+            optio eaque dolor voluptates corporis obcaecati laudantium error doloribus! Facilis consequuntur alias
+            commodi quo aperiam veniam fugiat unde labore repellendus.</div>
+
+    </div>
+    <script>
+        boxes = document.getElementsByClassName('box');
+        console.log(boxes)
+
+        window.addEventListener("scroll", xyz)
+
+        function xyz() {
+            for (i = 0; i < boxes.length; i++) {
+                windowHeight = window.innerHeight;
+                toTop = boxes[i].getBoundingClientRect().top;
+                getPoint = 200;
+
+
+                if (toTop < windowHeight - getPoint) {
+                    boxes[i].classList.add('test')
+                }
+                else {
+                    
+                }
+            }
+
+
+
+        }
+    </script>
+</body>
+
+</html>
