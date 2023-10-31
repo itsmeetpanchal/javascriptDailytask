@@ -31,8 +31,8 @@
         var k = 5;
 
         var max = (e > f && e > j && e > k) ? e :
-                  (f > e && f > j && f > k) ? f :
-                  (j > e && j > f && j > k) ? j : k;
+                  (f > j && f > k) ? f :
+                  (j > k) ? j : k;
 
         document.write("max" + max)
 
